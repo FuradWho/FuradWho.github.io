@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="zh">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <title>
-  Test · My New Hugo Site
+  图片使用指南 · My New Hugo Site
 </title>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,30 +13,120 @@
 
 
 <meta name="author" content="Furad">
-<meta name="description" content="Furad 的个人网站">
+<meta name="description" content="
+  Hugo图片使用指南
+  
+    
+    链接到标题
+  
+
+
+  头像图片
+  
+    
+    链接到标题
+  
+
+配置文件中的头像图片路径：static/images/avatar.jpg
+
+  Favicon图标
+  
+    
+    链接到标题
+  
+
+网站图标文件应放在以下位置：
+
+static/img/favicon.svg
+static/img/favicon-32x32.png
+static/img/favicon-16x16.png
+
+
+  在文章中添加图片
+  
+    
+    链接到标题
+  
+
+
+  方法1：全局图片（推荐）
+  
+    
+    链接到标题
+  
+
+将图片放在 static/images/ 或 static/img/ 目录下，然后在文章中这样引用：
+![图片描述](/images/你的图片.jpg)
+
+  方法2：页面资源图片
+  
+    
+    链接到标题
+  
+
+将图片放在与文章同名的文件夹中：
+content/posts/你的文章名/
+├── index.md (或你的文章名.md)
+└── 图片文件.jpg
+然后在文章中这样引用：
+![图片描述](图片文件.jpg)
+
+  方法3：使用HTML
+  
+    
+    链接到标题
+  
+
+&lt;img src=&#34;/images/你的图片.jpg&#34; alt=&#34;图片描述&#34; width=&#34;300&#34;&gt;
+
+  图片优化建议
+  
+    
+    链接到标题
+  
+
+
+头像图片建议尺寸：200x200像素
+文章图片建议宽度不超过800像素
+使用适当的图片格式：JPEG用于照片，PNG用于透明背景，SVG用于图标
+压缩图片以提高网站加载速度
+">
 <meta name="keywords" content="博客,开发者,个人网站">
 
 
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Test">
-  <meta name="twitter:description" content="Furad 的个人网站">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://FuradWho.github.io/avatar.jpg">
+  <meta name="twitter:title" content="图片使用指南">
+  <meta name="twitter:description" content="Hugo图片使用指南 链接到标题 头像图片 链接到标题 配置文件中的头像图片路径：static/images/avatar.jpg
+Favicon图标 链接到标题 网站图标文件应放在以下位置：
+static/img/favicon.svg static/img/favicon-32x32.png static/img/favicon-16x16.png 在文章中添加图片 链接到标题 方法1：全局图片（推荐） 链接到标题 将图片放在 static/images/ 或 static/img/ 目录下，然后在文章中这样引用：
+![图片描述](/images/你的图片.jpg) 方法2：页面资源图片 链接到标题 将图片放在与文章同名的文件夹中：
+content/posts/你的文章名/ ├── index.md (或你的文章名.md) └── 图片文件.jpg 然后在文章中这样引用：
+![图片描述](图片文件.jpg) 方法3：使用HTML 链接到标题 &lt;img src=&#34;/images/你的图片.jpg&#34; alt=&#34;图片描述&#34; width=&#34;300&#34;&gt; 图片优化建议 链接到标题 头像图片建议尺寸：200x200像素 文章图片建议宽度不超过800像素 使用适当的图片格式：JPEG用于照片，PNG用于透明背景，SVG用于图标 压缩图片以提高网站加载速度">
 
-<meta property="og:url" content="http://localhost:1313/posts/test/">
+<meta property="og:url" content="https://FuradWho.github.io/posts/test/">
   <meta property="og:site_name" content="My New Hugo Site">
-  <meta property="og:title" content="Test">
-  <meta property="og:description" content="Furad 的个人网站">
+  <meta property="og:title" content="图片使用指南">
+  <meta property="og:description" content="Hugo图片使用指南 链接到标题 头像图片 链接到标题 配置文件中的头像图片路径：static/images/avatar.jpg
+Favicon图标 链接到标题 网站图标文件应放在以下位置：
+static/img/favicon.svg static/img/favicon-32x32.png static/img/favicon-16x16.png 在文章中添加图片 链接到标题 方法1：全局图片（推荐） 链接到标题 将图片放在 static/images/ 或 static/img/ 目录下，然后在文章中这样引用：
+![图片描述](/images/你的图片.jpg) 方法2：页面资源图片 链接到标题 将图片放在与文章同名的文件夹中：
+content/posts/你的文章名/ ├── index.md (或你的文章名.md) └── 图片文件.jpg 然后在文章中这样引用：
+![图片描述](图片文件.jpg) 方法3：使用HTML 链接到标题 &lt;img src=&#34;/images/你的图片.jpg&#34; alt=&#34;图片描述&#34; width=&#34;300&#34;&gt; 图片优化建议 链接到标题 头像图片建议尺寸：200x200像素 文章图片建议宽度不超过800像素 使用适当的图片格式：JPEG用于照片，PNG用于透明背景，SVG用于图标 压缩图片以提高网站加载速度">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-01-12T22:00:50+08:00">
     <meta property="article:modified_time" content="2026-01-12T22:00:50+08:00">
-    <meta property="article:tag" content="Untagged">
+    <meta property="article:tag" content="指南">
+    <meta property="article:tag" content="图片">
+    <meta property="og:image" content="https://FuradWho.github.io/avatar.jpg">
 
 
 
 
-<link rel="canonical" href="http://localhost:1313/posts/test/">
+<link rel="canonical" href="https://FuradWho.github.io/posts/test/">
 
 
 <link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -46,7 +136,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/coder.css" media="screen">
+  <link rel="stylesheet" href="/css/coder.min.4b392a85107b91dbdabc528edf014a6ab1a30cd44cafcd5325c8efe796794fca.css" integrity="sha256-SzkqhRB7kdvavFKO3wFKarGjDNRMr81TJcjv55Z5T8o=" crossorigin="anonymous" media="screen" />
 
 
 
@@ -56,7 +146,7 @@
   
     
     
-    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
   
 
 
@@ -66,9 +156,9 @@
 
 
 
-<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
-<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/svg+xml" href="/img/47232497.jpg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
 <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
@@ -104,7 +194,7 @@
     <nav class="navigation">
   <section class="container">
     
-    <a class="navigation-title" href="http://localhost:1313/">
+    <a class="navigation-title" href="https://FuradWho.github.io/">
       My New Hugo Site
     </a>
     
@@ -139,8 +229,8 @@
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="http://localhost:1313/posts/test/">
-              Test
+            <a class="title-link" href="https://FuradWho.github.io/posts/test/">
+              图片使用指南
             </a>
           </h1>
         </div>
@@ -154,7 +244,7 @@
             </span>
             <span class="reading-time">
               <i class="fa-solid fa-clock" aria-hidden="true"></i>
-              阅读时间：0 分钟
+              阅读时间：1 分钟
             </span>
           </div>
           
@@ -162,7 +252,11 @@
           <div class="tags">
   <i class="fa-solid fa-tag" aria-hidden="true"></i>
     <span class="tag">
-      <a href="/tags/untagged/">Untagged</a>
+      <a href="/tags/%E6%8C%87%E5%8D%97/">指南</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/%E5%9B%BE%E7%89%87/">图片</a>
     </span></div>
 
         </div>
@@ -170,7 +264,85 @@
 
       <div class="post-content">
         
-        
+        <h1 id="hugo图片使用指南">
+  Hugo图片使用指南
+  <a class="heading-link" href="#hugo%e5%9b%be%e7%89%87%e4%bd%bf%e7%94%a8%e6%8c%87%e5%8d%97">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h1>
+<h2 id="头像图片">
+  头像图片
+  <a class="heading-link" href="#%e5%a4%b4%e5%83%8f%e5%9b%be%e7%89%87">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>配置文件中的头像图片路径：<code>static/images/avatar.jpg</code></p>
+<h2 id="favicon图标">
+  Favicon图标
+  <a class="heading-link" href="#favicon%e5%9b%be%e6%a0%87">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>网站图标文件应放在以下位置：</p>
+<ul>
+<li><code>static/img/favicon.svg</code></li>
+<li><code>static/img/favicon-32x32.png</code></li>
+<li><code>static/img/favicon-16x16.png</code></li>
+</ul>
+<h2 id="在文章中添加图片">
+  在文章中添加图片
+  <a class="heading-link" href="#%e5%9c%a8%e6%96%87%e7%ab%a0%e4%b8%ad%e6%b7%bb%e5%8a%a0%e5%9b%be%e7%89%87">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<h3 id="方法1全局图片推荐">
+  方法1：全局图片（推荐）
+  <a class="heading-link" href="#%e6%96%b9%e6%b3%951%e5%85%a8%e5%b1%80%e5%9b%be%e7%89%87%e6%8e%a8%e8%8d%90">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h3>
+<p>将图片放在 <code>static/images/</code> 或 <code>static/img/</code> 目录下，然后在文章中这样引用：</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#7ee787">图片描述</span>](/images/你的图片.jpg)
+</span></span></code></pre></div><h3 id="方法2页面资源图片">
+  方法2：页面资源图片
+  <a class="heading-link" href="#%e6%96%b9%e6%b3%952%e9%a1%b5%e9%9d%a2%e8%b5%84%e6%ba%90%e5%9b%be%e7%89%87">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h3>
+<p>将图片放在与文章同名的文件夹中：</p>
+<pre tabindex="0"><code>content/posts/你的文章名/
+├── index.md (或你的文章名.md)
+└── 图片文件.jpg
+</code></pre><p>然后在文章中这样引用：</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#7ee787">图片描述</span>](图片文件.jpg)
+</span></span></code></pre></div><h3 id="方法3使用html">
+  方法3：使用HTML
+  <a class="heading-link" href="#%e6%96%b9%e6%b3%953%e4%bd%bf%e7%94%a8html">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#7ee787">img</span> src<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">&#34;/images/你的图片.jpg&#34;</span> alt<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">&#34;图片描述&#34;</span> width<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">&#34;300&#34;</span>&gt;
+</span></span></code></pre></div><h2 id="图片优化建议">
+  图片优化建议
+  <a class="heading-link" href="#%e5%9b%be%e7%89%87%e4%bc%98%e5%8c%96%e5%bb%ba%e8%ae%ae">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<ul>
+<li>头像图片建议尺寸：200x200像素</li>
+<li>文章图片建议宽度不超过800像素</li>
+<li>使用适当的图片格式：JPEG用于照片，PNG用于透明背景，SVG用于图标</li>
+<li>压缩图片以提高网站加载速度</li>
+</ul>
+
       </div>
 
 
@@ -237,7 +409,7 @@
 
   
   
-  <script src="/js/coder.js"></script>
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
   
 
   

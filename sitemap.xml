@@ -2,14 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://FuradWho.github.io/</loc>
+    <lastmod>2026-01-12T22:00:50+08:00</lastmod>
+  </url><url>
+    <loc>https://FuradWho.github.io/posts/</loc>
+    <lastmod>2026-01-12T22:00:50+08:00</lastmod>
+  </url><url>
+    <loc>https://FuradWho.github.io/tags/</loc>
+    <lastmod>2026-01-12T22:00:50+08:00</lastmod>
+  </url><url>
+    <loc>https://FuradWho.github.io/tags/%E5%9B%BE%E7%89%87/</loc>
+    <lastmod>2026-01-12T22:00:50+08:00</lastmod>
+  </url><url>
+    <loc>https://FuradWho.github.io/posts/test/</loc>
+    <lastmod>2026-01-12T22:00:50+08:00</lastmod>
+  </url><url>
+    <loc>https://FuradWho.github.io/tags/%E6%8C%87%E5%8D%97/</loc>
+    <lastmod>2026-01-12T22:00:50+08:00</lastmod>
+  </url><url>
     <loc>https://FuradWho.github.io/authors/</loc>
   </url><url>
     <loc>https://FuradWho.github.io/categories/</loc>
   </url><url>
-    <loc>https://FuradWho.github.io/</loc>
-  </url><url>
     <loc>https://FuradWho.github.io/series/</loc>
-  </url><url>
-    <loc>https://FuradWho.github.io/tags/</loc>
   </url>
 </urlset>
